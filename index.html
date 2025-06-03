@@ -15,8 +15,11 @@
         <h1 clas="heading">Fill this form</h1>
         <form action="#" method="get">
            <input type="text" id="name" placeholder="Enter your name here" required name="name">
+           <span class="error" id="error-name"></span>
            <input type="email" id="email" placeholder="Enter your mail here" required name="email">
+            <span class="error" id="error-email"></span>
            <textarea id="message" placeholder="Write your message here " required name="message"></textarea>
+            <span class="error" id="error-message"></span>
        <button class="btn" type="submit">Submit</button>
         </form>
     </div>
